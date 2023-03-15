@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal: Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a745e2479.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>Welcome</h1>
+        </div>
+        <div class="login-box">
+            <h1>Sign In</h1>
+            <form action="" method="GET">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-regular fa-user"></i>
+                        <input name="username" type="text" placeholder="User Name"
+                        value=""> 
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" placeholder="Password">
+                    </div>
+                </div>
+            <div class="login">
+                <button type="button" onclick="login(this.form)">Login</button>
+            </div>
+            <div class="reset">
+                <button type="button" onclick="passwordReset()">Password Reset</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+
+
+</html>

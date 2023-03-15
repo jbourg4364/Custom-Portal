@@ -70,7 +70,7 @@ button {
 #nav {
     font-size: 22px;
     text-decoration: none;
-    color:rgb(56,18,109);
+    color: #993ceb;
     font-weight: 600;
     display: flex;
     width: 100%;
@@ -83,7 +83,7 @@ button {
     padding-left: 15px;
     font-weight: 400;
     text-decoration: none;
-    color: rgb(56,18,109);
+    color: #993ceb;
 }
 
 #welcome a:hover {
